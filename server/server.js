@@ -11,7 +11,7 @@ app.use(express.static('build'));
 /** ---------- EXPRESS ROUTES ---------- **/
 // Create your API routes in a separate file
 // and plug them in here with `app.use()`
-app.use('/database', itemRouter);
+app.use('/api/shoppingList', itemRouter);
 
 /** ---------- START SERVER ---------- **/
 app.listen(PORT,  () => {

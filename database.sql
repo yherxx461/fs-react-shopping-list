@@ -1,7 +1,7 @@
 -- Don't forget to add your create table SQL 
 -- It is also helpful to include some test data
 
-CREATE TABLE shopping_list (
+CREATE TABLE shoppingList (
 	"id" SERIAL PRIMARY KEY,
 	"name" VARCHAR(80) NOT NULL,
 	"quantity" DECIMAL NOT NULL,
@@ -9,7 +9,7 @@ CREATE TABLE shopping_list (
 	"purchased" BOOLEAN DEFAULT FALSE
 );
 
-INSERT INTO shopping_list ("name", "quantity", "unit", "purchased")
+INSERT INTO shoppingList ("name", "quantity", "unit", "purchased")
 VALUES ();
 
-SELECT * FROM shopping_list;
+SELECT * FROM shoppingList;
